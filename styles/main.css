@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'Helvetica', sans-serif;
+  src: url(../fonts/helvetica.woff2);
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Helvetica-Bold', sans-serif;
+  src: url(../fonts/Helvetica-Bold.ttf);
+  font-style: normal;
+  font-weight: 700;
+}
+
+:root {
+  --btn_main_color: #fed84c;
+  --dark_color: #2e363e;
+  --white_color: #ffffff;
+  --main-font: 'Helvetica', sans-serif;
+  --secondary-font: 'Helvetica-Bold', sans-serif;
+}
+
+body {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.container {
+  max-width: 1220px;
+  padding: 0 10px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.header {
+  border-bottom: 1px solid;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 80px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0 20px;
+}
+
+.basket {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
